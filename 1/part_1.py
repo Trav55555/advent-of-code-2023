@@ -6,11 +6,10 @@ def read_input(file_name):
 
 
 if __name__ == "__main__":
-    input_data = read_input("input_1.txt")
+    input_data = read_input("input.txt")
 
     cal_total = 0
 
-    # Part 1
     for line in input_data.split("\n"):
         cal_value = ''
         for char in line:

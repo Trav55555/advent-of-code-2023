@@ -25,7 +25,6 @@ if __name__ == "__main__":
     starting_letters = set([key[0] for key in number_word_map.keys()])
     print(starting_letters)
 
-    # Part 2
     for line in input_data.split("\n"):
         cal_value = ''
 
